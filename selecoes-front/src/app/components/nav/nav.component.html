@@ -1,0 +1,40 @@
+<mat-drawer-container class="container" autosize>
+    <mat-drawer #drawer class="sidenav" mode="side">
+       <img src="assets/img/selecao.webp" alt="Imagem de navegação">
+       <mat-nav-list class="nav-list">
+
+          <a mat-list-item routerLink="home">
+             <i class="material-icons">home</i>
+             Home
+          </a>
+
+   
+         <a mat-list-item routerLink="selecao">
+            <i class="material-icons">public</i>
+              Seleções
+         </a>
+
+         <a mat-list-item routerLink="info">
+            <i class="material-icons">announcement</i>
+              Informações
+         </a>
+         
+          <a mat-list-item href="https://github.com/Deivisonnogueira01" target="_blank">
+             <i class="material-icons">code</i>
+             Github
+          </a>
+  
+       </mat-nav-list>
+    </mat-drawer>
+ 
+    <div class="sidenav-content">
+       <app-header></app-header>
+       <button class="menu mat-elevation-z8" (click)="drawer.toggle()" mat-icon-button>
+          <mat-icon>menu</mat-icon>
+       </button>
+       <router-outlet></router-outlet>
+    </div>
+ 
+ </mat-drawer-container>
+
+

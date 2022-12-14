@@ -1,0 +1,59 @@
+
+.container{
+    display: flex;
+    align-items: stretch;
+    background-size: cover;
+}
+
+.container-2{
+    align-items: stretch;
+    display: flex;
+    background-size: cover;
+}
+
+.example-card-1 {
+    max-width: 500px;
+    max-height: 400px;
+  }
+  
+  
+.example-card-2 {
+    max-width: 500px;
+    max-height: 400px;
+  }
+
+
+.example-card-3 {
+    max-width: 500px;
+    max-height: 400px;
+  }
+
+.example-card-4{
+    max-width: 500px;
+    max-height: 400px;
+}  
+  
+.example-card-5{
+    max-width: 500px;
+    max-height: 400px;
+}
+
+.example-card-6{
+    max-width: 500px;
+    max-height: 400px;
+}
+
+.example-card-7{
+    max-width: 500px;
+    max-height: 400px;
+}
+
+.example-card-8{
+    max-width: 500px;
+    max-height: 400px;
+}
+
+
+
+
+
